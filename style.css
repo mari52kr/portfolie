@@ -105,19 +105,38 @@ body h1 {
 
 footer {
     width: 100vw;
-    display: block;
     overflow: hidden;
     padding: 30px 0;
-    box-sizing: border-box;
     background-color: #002A32;
+    flex-direction: row;
 }
 
-.inner_footer {
-    display: block;
-    margin: 0 auto;
-    width: 1100px;
-    height: 100%;
+#inner_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
+
+#inner_footer #SoMe {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+#SoMe a:hover {
+    color: #EBA6A9
+}
+
+#SoMe a:visited {
+    color: white;
+}
+
+#inner_footer #footer_tekst {
+    color: rgba(255, 255, 255, 0.7);
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -191,13 +210,13 @@ footer {
     }
 
     #section_1 #tekst_1 {
-    min-width: 50%;
-    text-align: center;
-    margin: auto;
-    width: 80%;
-    padding: 30px;
-    font-size: 60%;
-}
+        min-width: 50%;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        padding: 30px;
+        font-size: 60%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1100px) {
@@ -254,6 +273,6 @@ footer {
     }
 
     #section_1 #tekst_1 {
-    font-size: 80%
-}
+        font-size: 80%
+    }
 }
