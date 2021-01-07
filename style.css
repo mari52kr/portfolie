@@ -7,6 +7,14 @@
     overflow-x: hidden;
 }
 
+.fab {
+    color: white;
+}
+
+.fab:hover {
+    color: #EBA6A9;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -106,7 +114,7 @@ body h1 {
 footer {
     width: 100vw;
     overflow: hidden;
-    padding: 30px 0;
+    padding: 10px 0;
     background-color: #002A32;
     flex-direction: row;
 }
@@ -121,21 +129,21 @@ footer {
 
 #inner_footer #SoMe {
     display: flex;
-    color: white;
     align-items: center;
-}
-
-#SoMe a:hover {
-    color: #EBA6A9
+    letter-spacing: 15px;
+    font-size: 20px;
 }
 
 #SoMe a:visited {
-    color: white;
+    color: none;
 }
 
 #inner_footer #footer_tekst {
     color: rgba(255, 255, 255, 0.7);
-
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 60%;
+    font-style: normal;
 }
 
 
