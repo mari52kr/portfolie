@@ -1,3 +1,177 @@
 body {
     background-color: #022127
 }
+
+#intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#intro h1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#intro p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#prosjekter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    padding-right: 150px;
+    padding-left: 150px;
+
+    column-gap: 100px;
+
+    text-align: center;
+}
+
+#prosjekter p {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#prosjekter img {
+    height: auto;
+    width: 80%;
+}
+
+
+
+
+
+#html {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#ux {
+    position: relative;
+    top: -280px;
+
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#animasjon {
+    position: relative;
+    top: 100px;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#innhold {
+    position: relative;
+    top: -50px;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    #intro {
+        padding-bottom: 5px;
+    }
+
+    #prosjekter p {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    #prosjekter {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    #prosjekter img {
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    #prosjekter {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+        margin-bottom: 30px;
+
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    #prosjekter img {
+        padding: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    #intro h1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #intro p {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #html {
+        position: static;
+        top: 0px;
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #ux {
+        position: static;
+        top: 0px;
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    #animasjon {
+        position: static;
+        top: 0px;
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #innhold {
+        position: static;
+        top: 0px;
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
