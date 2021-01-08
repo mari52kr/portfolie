@@ -85,6 +85,12 @@ body {
     grid-row-end: 4;
 }
 
+.grow:hover {
+    transform: scale(102%);
+}
+
+
+
 @media screen and (min-width: 768px) and (max-width: 1100px) {
     #intro {
         padding-bottom: 5px;
