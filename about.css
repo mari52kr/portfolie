@@ -29,5 +29,8 @@ body {
 }
 
 #cvlink {
+    text-align: center;
+    margin-bottom: 30px;
+
     color: #EBB5B8;
 }
