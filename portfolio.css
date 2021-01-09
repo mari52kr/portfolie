@@ -86,7 +86,7 @@ body {
 }
 
 .grow:hover {
-    transform: scale(102%);
+    transform: scale(1.03);
 }
 
 
