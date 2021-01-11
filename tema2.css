@@ -53,22 +53,32 @@ body {
     margin-top: 10px;
 }
 
-.float {
-  display: inline-block;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  transition-property: transform;
-  transition-property: transform;
-}
+@media only screen and (max-width: 768px) {
 
-.float:hover {
-  transform: translateY(-5px);
-  transform: translateY(-5px);
-  /* move the element up by 5px */
-}
+    #splash h1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 25px;
+    }
 
+    #refleksjoner p {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner h3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner2 p {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner2 h3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}

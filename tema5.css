@@ -71,7 +71,37 @@ video {
     margin-top: 10px;
 }
 
+
+
+#dokumentasjon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+
+}
+
+#dokumentasjon a{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 50%;
+
+    position: relative;
+    left: 25%;
+}
+
+#dokumentasjon p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
 @media only screen and (max-width: 768px) {
+
+    #refleksjoner2 {
+        grid-template-columns: 1fr;
+    }
 
     #refleksjoner {
         display: grid;
@@ -97,6 +127,13 @@ video {
 
     width: 100%;
     height: auto;
+}
+
+    #dokumentasjon a{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 60%;
+
 }
 
 }

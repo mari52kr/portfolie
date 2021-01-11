@@ -4,16 +4,31 @@ body {
 
 #splash {
     text-align-last: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+#splash a {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
 
 #splash h1 {
     padding: 30px;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
-#splash img {
-    width: 70%;
-    padding-bottom: 30px;
+#splash p {
+    padding: 30px;
 }
+
+#splash a img {
+    width: 16%;
+    padding-bottom: 15px;
+}
+
 
 #refleksjoner {
     padding: 30px;
@@ -70,4 +85,43 @@ body {
     grid-column-end: 2;
 
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #splash h1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 25px;
+    }
+
+    #refleksjoner p {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner h3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner2 p {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner2 h3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner3 p {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner3 h3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
 }

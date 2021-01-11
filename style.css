@@ -112,7 +112,10 @@ button {
     font-size: 1rem;
 }
 
-
+.float:hover {
+    transform: translateY(-5px);
+    transition-duration: 0.3s;
+}
 
 nav {
     background-color: white;

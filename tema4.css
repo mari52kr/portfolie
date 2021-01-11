@@ -52,3 +52,33 @@ body {
 
     margin-top: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    #splash h1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 25px;
+    }
+
+    #refleksjoner p {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner h3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner2 p {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #refleksjoner2 h3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}
