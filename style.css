@@ -202,7 +202,7 @@ footer {
     text-align: center;
 }
 
-#inner_footer #SoMe {
+#inner_footer #SoMe ul {
     display: flex;
     align-items: center;
     letter-spacing: 15px;

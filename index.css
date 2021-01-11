@@ -1,0 +1,72 @@
+@media only screen and (max-width: 768px) {
+
+    #kontaktmeg {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0px;
+        background-color: #B8D0D3;
+    }
+
+    #kontaktmeg h1 {
+        grid-row-start: 1fr;
+        grid-row-end: 2fr;
+
+        padding: 20px;
+    }
+
+    #kontaktmeg .form-section {
+        grid-row-start: 2fr;
+        grid-row-end: 3fr;
+    }
+
+    #kontaktmeg h1 {
+        font-size: 40px;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .form-section {
+        align-items: start;
+        padding: 1.5rem;
+        color: #fff;
+        border-radius: 8px;
+    }
+
+    /* Forms CSS */
+    .form-felt {
+        margin-bottom: 1rem;
+    }
+
+    label {
+        display: grid;
+        justify-items: start;
+        font-weight: 600;
+    }
+
+    input {
+        display: block;
+        font-size: 1.1rem;
+        padding: .5rem;
+        padding-right: 50%;
+        border: 0;
+    }
+
+    button {
+        padding: .75rem 1rem;
+        margin-top: 1.1rem;
+        border: 0;
+        border-radius: 4px;
+        background: #7B999D;
+        color: #fff;
+        text-shadow: 0 0 6px rgb(0 0 0 / 40%);
+        font-weight: 700;
+        font-size: 1rem;
+    }
+}

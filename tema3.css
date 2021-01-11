@@ -52,3 +52,22 @@ body {
 
     margin-top: 10px;
 }
+
+#refleksjoner3 {
+    padding: 30px;
+    background-color: #EBA6A9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#refleksjoner3 h3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#refleksjoner3 p {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    margin-top: 10px;
+}
