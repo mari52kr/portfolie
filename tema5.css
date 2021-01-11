@@ -4,22 +4,40 @@ body {
 
 #splash {
     text-align-last: center;
+    padding-bottom: 30px;
 }
 
 #splash h1 {
     padding: 30px;
+    text-align: center;
 }
 
 #splash img {
-    width: 70%;
-    padding-bottom: 30px;
+    width: 60%;
 }
+
 
 #refleksjoner {
     padding: 30px;
     background-color: #FFC6AC;
     display: grid;
+    grid-column-gap: 10px;
     grid-template-columns: 1fr 1fr;
+}
+
+#portrett {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+video {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    width: 100%;
+    height: auto;
 }
 
 #refleksjoner h3 {
@@ -51,4 +69,34 @@ body {
     grid-column-end: 3;
 
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #refleksjoner {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #refleksjoner2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #portrett {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+video {
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+    width: 100%;
+    height: auto;
+}
+
 }
