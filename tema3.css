@@ -15,6 +15,7 @@ body {
 
 
 #splash h1 {
+    text-align: center;
     padding: 30px;
     grid-column-start: 2;
     grid-column-end: 3;

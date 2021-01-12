@@ -12,6 +12,10 @@ body {
 
 #splash img {
     width: 70%;
+    padding-bottom: 10px;
+}
+
+#splash p {
     padding-bottom: 30px;
 }
 
