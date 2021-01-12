@@ -1,5 +1,14 @@
 @media only screen and (max-width: 768px) {
 
+    #tekst_1 h1 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    #tekst_1 h3 {
+        font-size: 15px;
+    }
+
     #kontaktmeg {
         display: grid;
         grid-template-columns: 1fr;
