@@ -3,16 +3,16 @@ body {
 }
 
 #info {
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 #info img {
-    margin: 30px;
-
     grid-column-start: 2;
     grid-column-end: 3;
 }
+
 #info h1 {
     text-align: center;
     margin: 30px;
@@ -20,6 +20,7 @@ body {
     grid-column-start: 2;
     grid-column-end: 3;
 }
+
 #info p {
     text-align: center;
     margin: 30px;
@@ -33,4 +34,25 @@ body {
     margin-bottom: 30px;
 
     color: #EBB5B8;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    #info h1 {
+        text-align: center;
+        margin: 15px;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #info p {
+        text-align: center;
+        margin: 15px;
+        margin-bottom: 80px;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
 }
