@@ -224,11 +224,17 @@ footer {
     font-style: normal;
 }
 
+@media screen and (min-width: 0px) and (max-width: 375px) {
+
+    #splash {
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 768px) {
 
     body {
-        overflow: hidden;
+        overflow: hidden!important;
     }
 
     .nav-links {

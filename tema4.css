@@ -70,6 +70,10 @@ body {
     display: none;
 }
 
+.mobileXS {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
 
     #pdf {
@@ -110,4 +114,19 @@ body {
     .desktop {
         display: none;
     }
+}
+
+@media screen and (min-width: 0px) and (max-width: 375px) {
+
+    .mobile {
+    display: none;
+}
+
+    .mobileXS {
+    display: block;
+}
+
+    .desktop {
+    display: none;
+}
 }
