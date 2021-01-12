@@ -1,5 +1,5 @@
 body {
-    background-color: #F3D6CA;
+    background-color: #e2c4b8;
 }
 
 #splash {
@@ -19,7 +19,7 @@ body {
 
 #refleksjoner {
     padding: 30px;
-    background-color: #FFC6AC;
+    background-color: #d3a793;
     display: grid;
     grid-column-gap: 10px;
     grid-template-columns: 1fr 1fr;
@@ -54,7 +54,7 @@ video {
 
 #refleksjoner2 {
     padding: 30px;
-    background-color: #F9CEBB;
+    background-color: #bc9b8c;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
