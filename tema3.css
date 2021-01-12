@@ -169,11 +169,13 @@ input[name="r"] {
     margin: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 #pptx iframe {
     grid-column-start: 2;
     grid-column-end: 3;
+    border: 0px;
 }
 
 #pptx .mobile {
