@@ -35,7 +35,7 @@ h3 {
 }
 
 p {
-    font-family: Work Sans, sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
     color: white;
@@ -45,18 +45,17 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 80px;
-    padding-bottom: -40px;
     background-color: #B8D0D3;
 }
 
 #kontaktmeg h1 {
-    grid-column-start: 1fr;
-    grid-column-end: 2fr;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 #kontaktmeg .form-section {
-    grid-column-start: 2fr;
-    grid-column-end: 3fr;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 #kontaktmeg h1 {
@@ -213,7 +212,7 @@ footer {
 }
 
 #SoMe a:visited {
-    color: none;
+    color: rgba(255, 255, 255, 0);
 }
 
 #inner_footer #footer_tekst {
@@ -238,7 +237,7 @@ footer {
 @media only screen and (max-width: 768px) {
 
     body {
-        overflow: hidden!important;
+        overflow: hidden !important;
     }
 
     .nav-links {
@@ -247,7 +246,8 @@ footer {
         height: 92vh;
         top: 10vh;
 
-        background-color: white;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.8841911764705882) 0%, rgba(255, 255, 255, 0.8981967787114846) 10%, rgba(255, 255, 255, 0.9458158263305322) 20%, rgba(255, 255, 255, 1) 100%);
 
         display: flex;
         flex-direction: column;
@@ -256,7 +256,7 @@ footer {
 
         transform: translateX(100%);
 
-        transition: transform 0.5s ease-in;
+        transition: transform 0.3s ease-in;
     }
 
     .nav-links li {
@@ -313,6 +313,10 @@ footer {
         width: 80%;
         padding: 30px;
         font-size: 60%;
+    }
+
+    #section_1 {
+        margin: 10px;
     }
 }
 

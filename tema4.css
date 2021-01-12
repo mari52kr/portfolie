@@ -78,7 +78,7 @@ body {
 
     #pdf {
     padding: 10px;
-    grid-column-start: 0;
+    grid-column-start: 1;
 }
 
     #splash h1 {

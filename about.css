@@ -22,8 +22,8 @@ body {
 }
 
 #info p {
-    text-align: center;
-    margin: 30px;
+    text-align: left;
+    margin: 5px;
 
     grid-column-start: 2;
     grid-column-end: 3;
@@ -36,8 +36,34 @@ body {
     color: #EBB5B8;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    #info h1 {
+        text-align: center;
+        margin: 15px;
+
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    #info p {
+        text-align: left;
+        margin: 5px;
+
+        padding-right: 70px;
+        padding-left: 70px;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
+
+    #info {
+        margin: 30px;
+    }
 
     #info h1 {
         text-align: center;
@@ -48,9 +74,8 @@ body {
     }
 
     #info p {
-        text-align: center;
-        margin: 15px;
-        margin-bottom: 80px;
+        text-align: left;
+        margin: 5px;
 
         grid-column-start: 1;
         grid-column-end: 4;
